@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.todo_title{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 80px;
+  font-size: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.a_style{
+  width: 100%; height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
 }
+.a_style > input{
+  width: 250px; height: 50px;
+  border: none;
+  border-bottom: 2px solid #a1a1a1;
+  margin-right: 80px;
+}
+.a_style >button{
+  width: 130px; height: 50px;
+  font-size: 1.5rem;
+  background-color: rgb(68, 109, 255);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.m_style{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 1000px; height: 120px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 10px;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  text-align: center;
+}
+.m_style > .delete_btn{
+  width: 80px; height: 50px;
+  font-size: 1.5rem;
+  background-color: rgb(255, 88, 88);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 600px;
+  
+}
+.m_style > .clear_btn{
+  width: 80px; height: 50px;
+  font-size: 1.5rem;
+  background-color: rgb(81, 203, 132);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 10px;
 }
