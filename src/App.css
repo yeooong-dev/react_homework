@@ -13,8 +13,14 @@
   justify-content: center;
   font-size: 1.5rem;
 }
-.a_style > input{
+.title_style{
   width: 250px; height: 50px;
+  border: none;
+  border-bottom: 2px solid #a1a1a1;
+  margin-right: 80px;
+}
+.subtitle_style{
+  width: 480px; height: 50px;
   border: none;
   border-bottom: 2px solid #a1a1a1;
   margin-right: 80px;
@@ -34,14 +40,26 @@
   align-items: center;
   justify-content: center;
 }
+.m > h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px; height: 50px;
+  border-radius: 20px;
+  color: white;
+  margin-right: 800px;
+  font-size: 1.5rem;
+  background-color: #a3b8ac;
+  
+}
 .m_style{
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 1000px; height: 120px;
   background-color: rgb(238, 238, 238);
   border-radius: 10px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-top: 30px;
   text-align: center;
 }
